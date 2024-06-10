@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	13776098	Explosion			\Default Work Unit\Explosion	
+	2197345151	Thrust			\Default Work Unit\Thrust	
+	2381981414	LaserShot			\Default Work Unit\LaserShot	
+	3855253795	Streaming			\Default Work Unit\Streaming	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	117573956	Shoot	C:\Users\julia\Documents\NBCC WINTER 2023\Sound and design\ShipWithAudio\Blit3Dv3\TestAudio\.cache\Windows\SFX\Shoot_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Shoot		25316
+	596916218	StreamingMusic	C:\Users\julia\Documents\NBCC WINTER 2023\Sound and design\ShipWithAudio\Blit3Dv3\TestAudio\.cache\Windows\SFX\StreamingMusic_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\StreamingMusic		24016960
+	617119369	Explosion	C:\Users\julia\Documents\NBCC WINTER 2023\Sound and design\ShipWithAudio\Blit3Dv3\TestAudio\.cache\Windows\SFX\Explosion_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Explosion		86060
+	638661772	Engine	C:\Users\julia\Documents\NBCC WINTER 2023\Sound and design\ShipWithAudio\Blit3Dv3\TestAudio\.cache\Windows\SFX\Engine_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Engine		441064
+

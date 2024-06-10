@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4312927A-3158-455B-9ACA-E00496248082}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{4312927A-3158-455B-9ACA-E00496248082}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="LaserShot" ID="{5E46B7EB-D68A-48EA-BB7B-2A4FBCAF25DE}">
+					<ChildrenList>
+						<Action Name="" ID="{72B1C8F5-0051-4CE3-88D0-D62D3B1EA239}" ShortID="534558831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shoot" ID="{1F4A9171-0D13-435B-BFF1-CE9C1170897D}" WorkUnitID="{705F389F-F2E4-4C04-96A7-B07273626DA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Explosion" ID="{A49C566A-2854-44FB-81DE-BA29BC07F433}">
+					<ChildrenList>
+						<Action Name="" ID="{A6F4BB0A-9469-47C3-B15D-AF1A0F014440}" ShortID="941475694">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{A32DBCC8-7FAF-41DC-BC1F-511E3A1C919B}" WorkUnitID="{705F389F-F2E4-4C04-96A7-B07273626DA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Thrust" ID="{544F6966-067C-480C-8605-B6B7C0EA67D2}">
+					<ChildrenList>
+						<Action Name="" ID="{7F02C50E-2540-41BD-B7F0-76F93337288E}" ShortID="713898110">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{72754270-6528-4BB9-BE32-7E9F23F5E2A2}" WorkUnitID="{705F389F-F2E4-4C04-96A7-B07273626DA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Streaming" ID="{5282D82C-CEE5-4D49-954A-BF409CA298E1}">
+					<ChildrenList>
+						<Action Name="" ID="{08B7781C-74F6-4AD9-B9D4-CB4585E17F94}" ShortID="267316798">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StreamingMusic" ID="{1AC162F4-5C7D-4ADF-ADA7-9891E033A5D9}" WorkUnitID="{705F389F-F2E4-4C04-96A7-B07273626DA9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

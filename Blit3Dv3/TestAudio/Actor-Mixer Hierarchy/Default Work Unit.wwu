@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{705F389F-F2E4-4C04-96A7-B07273626DA9}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{705F389F-F2E4-4C04-96A7-B07273626DA9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Explosion" ID="{A32DBCC8-7FAF-41DC-BC1F-511E3A1C919B}" ShortID="801354">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-280</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A342711D-9989-4EB7-B58A-2185EAAE686A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5048D7D4-E8C9-4014-9820-1BE592F73EAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Explosion" ID="{DC8B8611-A663-4275-A439-3705B4904134}" ShortID="617119369">
+							<Language>SFX</Language>
+							<AudioFile>Explosion.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Explosion" ID="{DC8B8611-A663-4275-A439-3705B4904134}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Engine" ID="{72754270-6528-4BB9-BE32-7E9F23F5E2A2}" ShortID="1445527">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A342711D-9989-4EB7-B58A-2185EAAE686A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5048D7D4-E8C9-4014-9820-1BE592F73EAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Engine" ID="{76F4F290-BF53-4041-8D4B-2D0B6E3913E8}" ShortID="638661772">
+							<Language>SFX</Language>
+							<AudioFile>Engine.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Engine" ID="{76F4F290-BF53-4041-8D4B-2D0B6E3913E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Shoot" ID="{1F4A9171-0D13-435B-BFF1-CE9C1170897D}" ShortID="895778645">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A342711D-9989-4EB7-B58A-2185EAAE686A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5048D7D4-E8C9-4014-9820-1BE592F73EAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Shoot" ID="{BAC3FC36-2CD2-47AD-B8DD-BD4305BF57B0}" ShortID="117573956">
+							<Language>SFX</Language>
+							<AudioFile>Shoot.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Shoot" ID="{BAC3FC36-2CD2-47AD-B8DD-BD4305BF57B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="StreamingMusic" ID="{1AC162F4-5C7D-4ADF-ADA7-9891E033A5D9}" ShortID="975135570">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A342711D-9989-4EB7-B58A-2185EAAE686A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5048D7D4-E8C9-4014-9820-1BE592F73EAF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="StreamingMusic" ID="{8036DB83-D427-4909-B3EA-84F977F2D3A9}" ShortID="596916218">
+							<Language>SFX</Language>
+							<AudioFile>StreamingMusic.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="StreamingMusic" ID="{8036DB83-D427-4909-B3EA-84F977F2D3A9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
